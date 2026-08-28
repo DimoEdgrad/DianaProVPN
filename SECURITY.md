@@ -21,7 +21,7 @@ what you run, and how to report a problem.
   ```
 
 - The organization also keeps a central, credential-free verifier at
-  [`IRNova/reproducible-builds`](https://github.com/DimoEdgrad/reproducible-builds),
+  [`PouyanBakhshi/reproducible-builds`](https://github.com/DimoEdgrad/reproducible-builds),
   which cross-checks the hashes of Nova's public artifacts (this Worker and the
   installer site) from source.
 
