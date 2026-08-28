@@ -1,4 +1,4 @@
-# Nova Proxy 4.7.4
+# PouyanBakhshi Proxy 4.7.4
 
 A reliability release. It fixes the reason panels were going offline with a 1101 error and not coming back.
 
@@ -6,7 +6,7 @@ A reliability release. It fixes the reason panels were going offline with a 1101
 
 A panel updates itself by downloading a new `worker.js` and deploying it. Two problems in that path could deploy code that Cloudflare cannot start, and a panel that cannot start returns 1101 on every address. Redeploying the same version does not clear it, because the deployed file itself is broken.
 
-**Downloads were not being checked.** The updater accepted the download if it was over 1000 bytes and contained a marker that sits in the first 200 bytes of a 1.3 MB file. A download cut short by a bad connection passed that check and was deployed. Nova has published a checksum for the file all along, and the panel was not using it.
+**Downloads were not being checked.** The updater accepted the download if it was over 1000 bytes and contained a marker that sits in the first 200 bytes of a 1.3 MB file. A download cut short by a bad connection passed that check and was deployed. PouyanBakhshi has published a checksum for the file all along, and the panel was not using it.
 
 **The "Obfuscated" deploy format could not work.** It wrapped the panel in a form that Cloudflare Workers refuse to run. The setting was stored with the panel's data, so rebuilding a panel restored the setting and the panel broke itself again on its next update.
 
@@ -24,11 +24,11 @@ A panel that is already returning 1101 cannot update itself, because it cannot r
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.7.3
+# PouyanBakhshi Proxy 4.7.3
 
 A small security and reliability release.
 
@@ -39,11 +39,11 @@ A small security and reliability release.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.7.2
+# PouyanBakhshi Proxy 4.7.2
 
 A follow-up to 4.7.1.
 
@@ -53,11 +53,11 @@ A follow-up to 4.7.1.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.7.1
+# PouyanBakhshi Proxy 4.7.1
 
 A small follow-up to 4.7.0.
 
@@ -71,13 +71,13 @@ A small follow-up to 4.7.0.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.7.0
+# PouyanBakhshi Proxy 4.7.0
 
-Nova Proxy 4.7.0 is a rebuilt release that is simpler to run and adds several features for users on restrictive networks. The panel now ships inside the Worker, so there is no separate origin to set up. Your users, settings, and data are preserved on update.
+PouyanBakhshi Proxy 4.7.0 is a rebuilt release that is simpler to run and adds several features for users on restrictive networks. The panel now ships inside the Worker, so there is no separate origin to set up. Your users, settings, and data are preserved on update.
 
 ## Two front doors: Workers and Pages
 
@@ -109,13 +109,13 @@ Nova Proxy 4.7.0 is a rebuilt release that is simpler to run and adds several fe
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.6.5
+# PouyanBakhshi Proxy 4.6.5
 
-Nova Proxy 4.6.5 improves diagnostics and makes the panel easier to monitor.
+PouyanBakhshi Proxy 4.6.5 improves diagnostics and makes the panel easier to monitor.
 
 ## A simple health check
 
@@ -130,14 +130,14 @@ Everything from the 4.6.x line (the 1101 fixes and the 4.6.3/4.6.4 security fixe
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 
 ---
 
-# Nova Proxy 4.6.4
+# PouyanBakhshi Proxy 4.6.4
 
-Nova Proxy 4.6.4 is a small security follow-up to 4.6.3.
+PouyanBakhshi Proxy 4.6.4 is a small security follow-up to 4.6.3.
 
 ## Every first-time setup route respects the claim gate
 
@@ -148,13 +148,13 @@ Includes the 4.6.3 Telegram-login fix and all the 4.6.x stability fixes for the 
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.6.3
+# PouyanBakhshi Proxy 4.6.3
 
-Nova Proxy 4.6.3 is a security fix and is recommended for everyone.
+PouyanBakhshi Proxy 4.6.3 is a security fix and is recommended for everyone.
 
 ## Fixed: one-click Telegram login could be forged
 
@@ -167,13 +167,13 @@ Includes all the 4.6.x stability fixes for the main causes of the 1101 error.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.6.2
+# PouyanBakhshi Proxy 4.6.2
 
-Nova Proxy 4.6.2 adds real diagnostics and stops normal client behaviour from being treated as an error.
+PouyanBakhshi Proxy 4.6.2 adds real diagnostics and stops normal client behaviour from being treated as an error.
 
 ## You can now see what is failing
 
@@ -187,13 +187,13 @@ Includes all the 4.6.x fixes for the main causes of the 1101 error.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request. Your users, settings, and data are preserved. See [DEPLOY.md](DEPLOY.md).
 
 ---
 
-# Nova Proxy 4.5.7
+# PouyanBakhshi Proxy 4.5.7
 
-Nova Proxy 4.5.7 makes a deployed panel harder to fingerprint from the outside and adds a country flag to config names.
+PouyanBakhshi Proxy 4.5.7 makes a deployed panel harder to fingerprint from the outside and adds a country flag to config names.
 
 ## Harder to fingerprint
 
@@ -208,15 +208,15 @@ Connections, subscriptions, and ping behavior are unchanged.
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
 
 ---
 
-# Nova Proxy 4.5.6
+# PouyanBakhshi Proxy 4.5.6
 
-Nova Proxy 4.5.6 fixes a slow leak that could make a busy panel eventually return a 1101 error.
+PouyanBakhshi Proxy 4.5.6 fixes a slow leak that could make a busy panel eventually return a 1101 error.
 
 ## Connection cleanup no longer scans the whole table
 
@@ -225,15 +225,15 @@ Nova Proxy 4.5.6 fixes a slow leak that could make a busy panel eventually retur
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
 
 ---
 
-# Nova Proxy 4.5.5
+# PouyanBakhshi Proxy 4.5.5
 
-Nova Proxy 4.5.5 fixes the live Cloudflare usage box so the read-only token connects on the first try.
+PouyanBakhshi Proxy 4.5.5 fixes the live Cloudflare usage box so the read-only token connects on the first try.
 
 ## Usage stats connect reliably
 
@@ -243,15 +243,15 @@ Nova Proxy 4.5.5 fixes the live Cloudflare usage box so the read-only token conn
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
 
 ---
 
-# Nova Proxy 4.5.4
+# PouyanBakhshi Proxy 4.5.4
 
-Nova Proxy 4.5.4 is a hardening release that lowers the deployed worker's static fingerprint. Runtime behavior is unchanged, so existing panels keep working exactly as before.
+PouyanBakhshi Proxy 4.5.4 is a hardening release that lowers the deployed worker's static fingerprint. Runtime behavior is unchanged, so existing panels keep working exactly as before.
 
 ## A smaller static fingerprint
 
@@ -260,33 +260,33 @@ Nova Proxy 4.5.4 is a hardening release that lowers the deployed worker's static
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
 
 ---
 
-# Nova Proxy 4.5.2
+# PouyanBakhshi Proxy 4.5.2
 
-Nova Proxy 4.5.2 stops a dead or unresponsive proxy IP from hanging the worker.
+PouyanBakhshi Proxy 4.5.2 stops a dead or unresponsive proxy IP from hanging the worker.
 
 ## A silent proxy IP fails fast instead of hanging
 
 - If a connection is routed through a proxy IP that accepts the connection but then never sends any data, the worker now closes it after a short wait instead of hanging until the runtime cancels the request.
 - Only the wait for the first byte is bounded. Active connections, and legitimately idle-but-alive connections, are untouched.
 
-# Nova Proxy 4.5.1
+# PouyanBakhshi Proxy 4.5.1
 
-Nova Proxy 4.5.1 hardens the WebSocket handler so a malformed or scanner-probe connection closes cleanly instead of returning an internal error.
+PouyanBakhshi Proxy 4.5.1 hardens the WebSocket handler so a malformed or scanner-probe connection closes cleanly instead of returning an internal error.
 
 ## Cleaner handling of bad connections
 
 - A probe or malformed WebSocket connection now closes quietly instead of surfacing an internal error. This also removes a signal a scanner could use to fingerprint the worker as a proxy.
 - Real client connections are unaffected.
 
-# Nova Proxy 4.5.0
+# PouyanBakhshi Proxy 4.5.0
 
-Nova Proxy 4.5.0 fixes subscription links, gives every user a stable TLS fingerprint, trims the Resistance Policy down to the toggles that actually change behavior, and makes the release build prove the artifact boots before it ships.
+PouyanBakhshi Proxy 4.5.0 fixes subscription links, gives every user a stable TLS fingerprint, trims the Resistance Policy down to the toggles that actually change behavior, and makes the release build prove the artifact boots before it ships.
 
 ## Subscription links that resolve correctly
 
@@ -315,13 +315,13 @@ Nova Proxy 4.5.0 fixes subscription links, gives every user a stable TLS fingerp
 
 ## Upgrade
 
-Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for Nova updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
+Deploy the update with the Deploy to Cloudflare button, or merge the daily **Check for PouyanBakhshi updates** pull request after reviewing its diff and Cloudflare preview. Your users, settings, and data are preserved. Full deployment and update instructions are in [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
 
 ---
 
-# Nova Proxy 4.4.x
+# PouyanBakhshi Proxy 4.4.x
 
 The 4.4 line hardened multi-user state and simplified how configs are shared.
 
@@ -340,6 +340,6 @@ The 4.4 line hardened multi-user state and simplified how configs are shared.
 
 ## Upgrade
 
-Update through the Deploy to Cloudflare button or the **Check for Nova updates** pull request. See [DEPLOY.md](DEPLOY.md).
+Update through the Deploy to Cloudflare button or the **Check for PouyanBakhshi updates** pull request. See [DEPLOY.md](DEPLOY.md).
 
 The public repository contains only the obfuscated `worker.js` deployment artifact, its deployment metadata, checksums, and documentation. The maintainable panel source stays private.
