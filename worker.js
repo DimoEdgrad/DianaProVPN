@@ -455,7 +455,7 @@ ${A} <b>${(d*100).toFixed(1)}%</b>
 <blockquote>${r}</blockquote>
 
 <i>🟢 Работает  🔴 Ошибка  ⚪️ Не проверено</i>
-<b>╚══════════════════╝</b>`)}function gs(t){return((a,n,o)=>t==="ru"?o:t==="fa"?a:n)(`<b>🛰 به ربات Nova Proxy خوش آمدید</b>
+<b>╚══════════════════╝</b>`)}function gs(t){return((a,n,o)=>t==="ru"?o:t==="fa"?a:n)(`<b>🛰 به ربات Diana Vip Vpn خوش آمدید</b>
 
 <blockquote>مدیریت پنل از تلگرام:
 دریافت لینک اشتراک، وضعیت، مصرف و تنظیمات</blockquote>
