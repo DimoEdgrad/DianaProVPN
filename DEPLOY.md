@@ -16,7 +16,7 @@ Cloudflare's supported deployment flow creates a user-owned Git repository, prov
 
 ### Option B: The Telegram bot (no computer)
 
-The installer bot [@IRNovaProxy_Bot](https://t.me/IRNovaProxy_Bot) walks you through the same deployment from your phone. Check the bot username exactly before you start.
+The installer bot [@DimoEdgrad_Bot](https://t.me/PouyanBakhshi_Bot) walks you through the same deployment from your phone. Check the bot username exactly before you start.
 
 ### Option C: Wrangler (CLI)
 
@@ -43,8 +43,8 @@ The public repository ships a single obfuscated deployment artifact, `worker.js`
 Check a copy by hand:
 
 ```bash
-curl -fsSLO https://raw.githubusercontent.com/IRNova/Nova-Proxy/main/worker.js
-curl -fsSL https://raw.githubusercontent.com/IRNova/Nova-Proxy/main/SHA256SUMS | sha256sum -c
+curl -fsSLO https://raw.githubusercontent.com/DimoEdgrad/DianaProVPN/main/worker.js
+curl -fsSL https://raw.githubusercontent.com/DimoEdgrad/DianaProVPN/main/SHA256SUMS | sha256sum -c
 ```
 
 You can also confirm the artifact parses as valid JavaScript before deploying:
@@ -73,7 +73,7 @@ Users who prefer hands-off updates can opt in once:
 2. Go to **Settings > Secrets and variables > Actions > Variables**.
 3. Create a repository variable named `NOVA_UPDATE_MODE` with the value `automatic`.
 
-The scheduled workflow then fetches only `worker.js` and `version.json` from `IRNova/Nova-Proxy`, refuses same-version and older releases, checks the Worker JavaScript syntax, runs a Wrangler dry-run, and pushes the validated update to the production branch, where Workers Builds deploys it. Set `NOVA_UPDATE_MODE` back to `review` or delete the variable to stop hands-off updates.
+The scheduled workflow then fetches only `worker.js` and `version.json` from `DimoEdgrad/DianaProVPN`, refuses same-version and older releases, checks the Worker JavaScript syntax, runs a Wrangler dry-run, and pushes the validated update to the production branch, where Workers Builds deploys it. Set `NOVA_UPDATE_MODE` back to `review` or delete the variable to stop hands-off updates.
 
 No Cloudflare API token is copied into Nova. Cloudflare's own deployment flow performs the API operations, and Workers Builds deploys repository changes over its managed connection. Your users, settings, and data are preserved across updates.
 
@@ -86,7 +86,7 @@ If a release misbehaves, use **Worker > Deployments > Rollback** in Cloudflare t
 A plain free Worker cannot carry UDP, so voice and video calls (FaceTime, WhatsApp, Telegram) need a backend. Front your Worker with your own Xray or sing-box VPS:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/IRNova/Tools/main/nova-backend.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/DimoEdgrad/Tools/main/nova-backend.sh)
 ```
 
 Then enable **Backend mode** in the panel (Network Settings > Backend mode) and enter your VPS address. The Worker keeps serving the panel and the clean-IP edge while the backend carries full-quality routing and UDP.
