@@ -116,7 +116,7 @@
     <text x="918" y="284" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#e7ecf4">1 Worker</text>
     <!-- free tier pill -->
     <g>
-      <rect x="866" y="298" width="104" height="40" rx="15" fill="#0c2330" stroke="#f251dc" stroke-width="1.3"/>
+      <rect x="866" y="298" width="104" height="30" rx="15" fill="#0c2330" stroke="#f251dc" stroke-width="1.3"/>
       <text x="918" y="318" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" font-weight="700" fill="#f251dc">Diana MemberShip</text>
     </g>
 
