@@ -13,8 +13,8 @@ VLESS, Trojan, Shadowsocks, gRPC, XHTTP over WebSocket + TLS, with a bilingual p
 WARP, proxy chaining, and a Backend mode. Runs on Cloudflare's **free plan**.
 
 [![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/version-4.7.4-blueviolet?style=for-the-badge)](https://github.com/IRNova/Nova-Proxy)
-[![Stars](https://img.shields.io/github/stars/IRNova/Nova-Proxy?style=for-the-badge&color=0ea5e9)](https://github.com/IRNova/Nova-Proxy)
+[![Version](https://img.shields.io/badge/version-4.7.4-blueviolet?style=for-the-badge)](https://github.com/DimoEdgrad/DianaProVPN)
+[![Stars](https://img.shields.io/github/stars/DimoEdgrad/DianaProVPN?style=for-the-badge&color=0ea5e9)](https://github.com/DimoEdgrad/DianaProVPN)
 
 </div>
 
@@ -25,12 +25,12 @@ WARP, proxy chaining, and a Backend mode. Runs on Cloudflare's **free plan**.
 <div align="center">
 
 [![Website](https://img.shields.io/badge/🌐%20Website-novaproxy.online-0ea5e9?style=for-the-badge)](https://novaproxy.online/)
-[![Telegram Channel](https://img.shields.io/badge/✈️%20Telegram%20Channel-@irnova__proxy-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irnova_proxy)
-[![Telegram Group](https://img.shields.io/badge/👥%20Telegram%20Group-@irnovaproxy__group-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/irnovaproxy_group)
-[![YouTube](https://img.shields.io/badge/▶️%20YouTube-@novaproxyir-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@novaproxyir)
-[![X (Twitter)](https://img.shields.io/badge/𝕏%20X-@irNovaProxy-000000?style=for-the-badge&logo=x)](https://x.com/irNovaProxy)
-[![Instagram](https://img.shields.io/badge/📸%20Instagram-@irnova__proxy-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/irnova_proxy)
-[![Deploy to Cloudflare](https://img.shields.io/badge/⚡%20Deploy-to%20Cloudflare-f6821f?style=for-the-badge&logo=cloudflare)](https://deploy.workers.cloudflare.com/?url=https://github.com/IRNova/Nova-Proxy)
+[![Telegram Channel](https://img.shields.io/badge/✈️%20Telegram%20Channel-@PouyanBakhshi-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/PouyanBakhshi)
+[![Telegram Group](https://img.shields.io/badge/👥%20Telegram%20Group-@PouyanBakhshi-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/PouyanBakhshi)
+[![YouTube](https://img.shields.io/badge/▶️%20YouTube-@novaproxyir-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@PouyanBakhshi)
+[![X (Twitter)](https://img.shields.io/badge/𝕏%20X-@PouyanBakhshi-000000?style=for-the-badge&logo=x)](https://x.com/PouyanBakhshi)
+[![Instagram](https://img.shields.io/badge/📸%20Instagram-@PouyanBakhshi-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/PouyanBakhshi)
+[![Deploy to Cloudflare](https://img.shields.io/badge/⚡%20Deploy-to%20Cloudflare-f6821f?style=for-the-badge&logo=cloudflare)](https://deploy.workers.cloudflare.com/?url=https://github.com/DimoEdgrad/DianaProVPN)
 
 </div>
 
@@ -61,7 +61,7 @@ You need a free [Cloudflare](https://dash.cloudflare.com/sign-up) account.
 
 **Option A, one-click:** use the Deploy to Cloudflare button above and follow the prompts. Cloudflare's supported deployment flow creates the Worker, the KV namespace, and the D1 database, then connects Workers Builds. You do not create or paste a Cloudflare API token into Nova.
 
-**Option B, Telegram bot:** the installer bot [@IRNovaProxy_Bot](https://t.me/IRNovaProxy_Bot) can do the whole deployment from your phone.
+**Option B, Telegram bot:** the installer bot [@PouyanBakhshi_Bot](https://t.me/PouyanBakhshi_Bot) can do the whole deployment from your phone.
 
 **Option C, Wrangler (CLI):**
 
@@ -91,7 +91,7 @@ Repositories created from this project include a daily **Check for Nova updates*
 3. Copy that user's link and send it to them.
 4. They open it on their phone, pick **Auto**, **Base64**, or **Clash**, and import it into their app.
 
-The recommended client is **[Nova Client](https://github.com/IRNova/Nova-Client)** (iOS, Android, and desktop). Any standard client that reads Base64 or Clash also works.
+The recommended client is **[Nova Client](https://github.com/DimoEdgrad/PouyanBakhshi-Client)** (iOS, Android, and desktop). Any standard client that reads Base64 or Clash also works.
 
 ## Clients
 
@@ -126,12 +126,12 @@ On licensing: Nova releases through 4.2.0 were published under the MIT license, 
 
 <div align="center">
 
-Built for ep Iran <img src="https://raw.githubusercontent.com/IRNova/Nova-Proxy/main/flag-iran.svg" height="16" alt="Iran (Lion and Sun)" />, and everyone who needs an open internet.
+Built for ep Iran <img src="https://raw.githubusercontent.com/DimoEdgrad/DianaProVPN/main/flag-iran.svg" height="16" alt="Iran (Lion and Sun)" />, and everyone who needs an open internet.
 
 **None of your traffic is logged. The proxy is yours.**
 
 📖 [نسخهٔ فارسی / Persian version](README.fa.md)
 
-<a href="https://star-history.com/#IRNova/Nova-Proxy&Date">Star history</a>
+<a href="https://star-history.com/#DimoEdgrad/DianaProVPN&Date">Star history</a>
 
 </div>
