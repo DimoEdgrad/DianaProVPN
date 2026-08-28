@@ -455,17 +455,17 @@ ${A} <b>${(d*100).toFixed(1)}%</b>
 <blockquote>${r}</blockquote>
 
 <i>🟢 Работает  🔴 Ошибка  ⚪️ Не проверено</i>
-<b>╚══════════════════╝</b>`)}function gs(t){return((a,n,o)=>t==="ru"?o:t==="fa"?a:n)(`<b>🛰 به ربات Diana Vip Vpn خوش آمدید</b>
+<b>╚══════════════════╝</b>`)}function gs(t){return((a,n,o)=>t==="ru"?o:t==="fa"?a:n)(`<b>🛰 به ربات Diana Vip Vpn Bot خوش آمدید</b>
 
 <blockquote>مدیریت پنل از تلگرام:
 دریافت لینک اشتراک، وضعیت، مصرف و تنظیمات</blockquote>
 
-از دکمه‌های زیر استفاده کنید 👇`,`<b>🛰 Welcome to Nova Proxy Bot</b>
+از دکمه‌های زیر استفاده کنید 👇`,`<b>🛰 Welcome to Diana Vip Vpn Bot</b>
 
 <blockquote>Manage your panel from Telegram:
 Get subscription link, status, usage & settings</blockquote>
 
-Use the buttons below 👇`,`<b>🛰 Добро пожаловать в бот Nova Proxy</b>
+Use the buttons below 👇`,`<b>🛰 Добро пожаловать в бот Diana Vip Vpn</b>
 
 <blockquote>Управляйте панелью из Telegram:
 ссылка на подписку, статус, трафик и настройки</blockquote>
