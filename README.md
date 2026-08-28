@@ -24,7 +24,7 @@ WARP, proxy chaining, and a Backend mode. Runs on Cloudflare's **free plan**.
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/🌐%20Website-novaproxy.online-0ea5e9?style=for-the-badge)](https://novaproxy.online/)
+[![Website](https://img.shields.io/badge/🌐%20Website-DimoEdgard.ir-0ea5e9?style=for-the-badge)](https://DimoEdgard.ir/)
 [![Telegram Channel](https://img.shields.io/badge/✈️%20Telegram%20Channel-@PouyanBakhshi-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/PouyanBakhshi)
 [![Telegram Group](https://img.shields.io/badge/👥%20Telegram%20Group-@PouyanBakhshi-0ea5e9?style=for-the-badge&logo=telegram)](https://t.me/PouyanBakhshi)
 [![YouTube](https://img.shields.io/badge/▶️%20YouTube-@novaproxyir-ff0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@PouyanBakhshi)
