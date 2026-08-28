@@ -10,7 +10,7 @@ You need a free [Cloudflare](https://dash.cloudflare.com/sign-up) account. Pick 
 
 Use the **Deploy to Cloudflare** button in the repository and follow the prompts:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/IRNova/Nova-Proxy)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/DimoEdgrad/DianaProVPN)
 
 Cloudflare's supported deployment flow creates a user-owned Git repository, provisions the Worker, the KV namespace, and the D1 database, and connects Workers Builds. You never create or paste a Cloudflare API token into Nova.
 
