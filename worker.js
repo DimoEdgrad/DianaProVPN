@@ -23,7 +23,7 @@ var En={"/admin/index.html":{contentType:"text/html;charset=utf-8",encoding:"tex
   </defs>
   <rect class="cls-4" width="1050.01" height="600.01"/>
   <rect class="cls-1" y="200" width="1050.01" height="400"/>
-  <rect class="cls-3" y="400" width="1050.01" height="200"/>
+  <rect class="cls-3" y="400" width="1050.01" height="2 00"/>
   <g id="layer1">
     <g id="g60">
       <g id="g36">
